@@ -17,7 +17,9 @@ h3{
 
 }
 
-
+header p{
+    font-size: 15px;
+}
 .grid-index{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -82,27 +84,7 @@ h3{
     margin: 25px 20px;
 }
 
-footer{
-    display: flex;
-    justify-content: space-around;
-    background-color: rgb(21, 3, 39);
-    height:60px;
-}
-footer ul{
-    display: flex;
-    
-}
-footer ul li{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-footer ul li img{
-    width: 2rem;
-    height: 2rem;
-    margin: 25px 20px;
-    
-}
+
 @media(max-width: 1100px){
     .imgCards{
         width: 140px;
@@ -135,9 +117,13 @@ footer ul li img{
         align-items: center;
         width: 100%;
     }
-.cardsProyect{
+    .cardsProyect{
     width: 50%;
-}
+    }
+    header p{
+        font-size: 10px;
+    }
+    
 }
 @media(max-width: 770px){
 .tarjeta{
