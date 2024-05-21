@@ -84,7 +84,10 @@ header p{
     margin: 25px 20px;
 }
 
-
+.perfilResp{
+    display: flex;
+    align-items: center;
+}
 @media(max-width: 1100px){
     .imgCards{
         width: 140px;
@@ -150,10 +153,13 @@ header p{
     
 }
 @media(max-width: 550px){
-    footer ul li img{
-        width: 3rem;
-        height: 3rem;
-        margin: 20px;
+    .perfilResp{
+        display: block;
+        align-items: center;
+    }
+    .fotoPerfil{
+        width: 100px;
+        height: 100px;
     }
 }
 @media(max-width: 420px){
