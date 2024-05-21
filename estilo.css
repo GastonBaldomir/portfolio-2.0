@@ -42,6 +42,7 @@ header p{
 }
 .links{
     color: rgb(178, 146, 207);
+    font-size: 15px;
 }
 .ver{
  font-size: small;
@@ -139,6 +140,9 @@ header p{
 .imgCards{
     width: 70px;
     height: 50px;
+}
+.links{
+    font-size: 10px;
 }
 }
 @media(max-width: 600px){
